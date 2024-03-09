@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="072d0b00-d6eb-4fa8-ab8e-7d7ad9eca020" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1y4QPLrBQdI4opIKllXERSNh21L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Python.Evaluator 1">
+    <configuration name="Evaluator 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="comp 141" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Evaluator 1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="evaluator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="comp 141" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../comp141-scanner" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../comp141-scanner/evaluator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="comp 141" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/venv/Python3.9/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../comp141-scanner" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../comp141-scanner/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="re" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="comp 141" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/re.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scanner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="comp 141" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scanner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Evaluator 1" />
+      <item itemvalue="Python.evaluator" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.re" />
+      <item itemvalue="Python.scanner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Evaluator 1" />
+        <item itemvalue="Python.scanner" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.evaluator" />
+        <item itemvalue="Python.re" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="072d0b00-d6eb-4fa8-ab8e-7d7ad9eca020" name="Default Changelist" comment="" />
+      <created>1631508355871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631508355871</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="208" y="41" key="#Project_Structure" timestamp="1634792454734">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="208" y="41" key="#Project_Structure/0.25.1440.875@0.25.1440.875" timestamp="1634792454734" />
+    <state x="-18" y="-939" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1637038681945">
+      <screen x="-263" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="-18" y="-939" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637038681945" />
+    <state x="184" y="121" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1634792441429" />
+    <state x="305" y="-889" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1637038667506">
+      <screen x="-263" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="305" y="-889" key="#com.intellij.ide.macro.MacrosDialog/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637038667506" />
+    <state width="1878" height="352" key="GridCell.Tab.0.bottom" timestamp="1637085611484">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="227" key="GridCell.Tab.0.bottom/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637046027002" />
+    <state width="1878" height="352" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1637085611484" />
+    <state width="1878" height="352" key="GridCell.Tab.0.center" timestamp="1637085611484">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="227" key="GridCell.Tab.0.center/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637046027001" />
+    <state width="1878" height="352" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1637085611484" />
+    <state width="1878" height="352" key="GridCell.Tab.0.left" timestamp="1637085611483">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="227" key="GridCell.Tab.0.left/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637046027000" />
+    <state width="1878" height="352" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1637085611483" />
+    <state width="1878" height="352" key="GridCell.Tab.0.right" timestamp="1637085611484">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="227" key="GridCell.Tab.0.right/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637046027002" />
+    <state width="1878" height="352" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1637085611484" />
+    <state width="1878" height="352" key="GridCell.Tab.1.bottom" timestamp="1637085611487">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="352" key="GridCell.Tab.1.bottom/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637030496634" />
+    <state width="1878" height="352" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1637085611487" />
+    <state width="1878" height="352" key="GridCell.Tab.1.center" timestamp="1637085611486">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="352" key="GridCell.Tab.1.center/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637030496633" />
+    <state width="1878" height="352" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1637085611486" />
+    <state width="1878" height="352" key="GridCell.Tab.1.left" timestamp="1637085611485">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="352" key="GridCell.Tab.1.left/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637030496632" />
+    <state width="1878" height="352" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1637085611485" />
+    <state width="1878" height="352" key="GridCell.Tab.1.right" timestamp="1637085611486">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="352" key="GridCell.Tab.1.right/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637030496634" />
+    <state width="1878" height="352" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1637085611486" />
+    <state x="256" y="-795" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1637030484192">
+      <screen x="-263" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="256" y="-795" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637030484192" />
+    <state x="-227" y="-1055" width="1842" height="1055" maximized="true" key="dock-window-1" timestamp="1637030893241">
+      <screen x="-263" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="-227" y="-1055" width="1842" height="1055" maximized="true" key="dock-window-1/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1637030893241" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
