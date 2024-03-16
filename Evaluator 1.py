@@ -1,7 +1,10 @@
 # Aung Kaung Khant, Kenny Wu
 #2.1
-import re,sys
-from collections import OrderedDict 
+import re
+""" Module providing regular expression capabilities """
+import sys
+""" Module providing runtime environment capabilities"""
+from collections import OrderedDict
 
 
 stack = []
@@ -14,10 +17,11 @@ OPERATORS = OrderedDict([ \
     ])
 
 
-SYM = r'[+\-\(\)\/*]'
+#SYM = r'[+\-\(\)\/*]'
 
 #easiet within the 3 segments
 def gettype(i):
+    """Categorize the tokens"""
     identifier = "([a-z]|[A-Z])([a-z]|[A-Z]|[0-9])*"
     num = "[0-9]+"
     symbol = r'\+|\-|\*|\(|\)|\/|:=|\;'
@@ -33,6 +37,7 @@ def gettype(i):
 
 
 def findpos(s, line):
+    """ Finds the position of the tokens within the list"""
     inbrackets=0
     j=-1
     for i in line:
@@ -41,36 +46,41 @@ def findpos(s, line):
             inbrackets+=1
         elif i == ')':
             inbrackets-=1
-        elif inbrackets!=0: # so this is going to search for the enclosed brackets. If inbrackets != 0 then, it is going to search for it til it does
-            continue # so when the input is 3*(..)it prints out * first even though it is at last in precedence. For symbols like +-/ it never goes beyond this point
+        elif inbrackets!=0: # so this is going to search for the enclosed brackets.
+            #If inbrackets != 0 then, it is going to search for it til it does
+            continue
+            #For symbols like +-/ it never goes beyond this point
         elif i == s:
             return j
     return -1
 
-def asttree(line, tabs=0): 
-    #grammar is defined top-down 
+def asttree(line, tabs=0):
+    """ Visual Representation of constructing the AST tree """
+    #grammar is defined top-down
     #but actual ast tree construction happens bottom-up
     tabulation = '\t'*tabs
     if line == []:
         return
-    if len(line) == 1: # only one token in token list. 
-        #And this is used when creating ast tree for 3. This is going to work after every +-/*. for the numbers.
+    if len(line) == 1: # only one token in token list.
+        #And this is used when creating ast tree for 3.
         print(tabulation+line[0]+' : ' +gettype(line[0]))
         stack.append(line[0])#
         #evaluator(stack)
         return
     try:
-        if line[0] == '(' and line[-1] ==')': #case for if it starts with (). And this is used when creating the tree for inside the brackets
+        if line[0] == '(' and line[-1] ==')': #case for if it starts with ().
             asttree(line[1:-1], tabs)
             return
     except IndexError as IE:
         print(line)
         sys.exit()
     symbols='+-/*'
-    for s in symbols: # here we have implicitly established precedence rules. In terms of plotting, first come first plotted on tree. However, in terms of execution, last come first executed.
+    for s in symbols: # here we have implicitly established precedence rules.
+        #In terms of plotting, first come first plotted on tree.
+        #However, in terms of execution, last come first executed.
         pos = findpos(s, line) # we are going to first match with + in s for every stack.
         if pos != -1:
-            print(tabulation+s+' : SYMBOL')#  \t \t + : SYMBOL. This is string concatenation, the +'s.
+            print(tabulation+s+' : SYMBOL')
             stack.append(s)
             asttree(line[:pos],tabs=tabs+1)   # recurse on line before pos
             asttree(line[pos+1:],tabs=tabs+1) # on line after pos
@@ -108,7 +118,7 @@ def evaluator(stack1):
     return stack1
 
 
-PAT=r'[0-9]+|[a-zA-Z][a-zA-Z0-9]*|[+\-\(\)/*\;]|:=|[if|then|else|endif|while|do|endwhile|skip]'# added keyword
+PAT=r'[0-9]+|[a-zA-Z][a-zA-Z0-9]*|[+\-\(\)/*\;]|:=|[if|then|else|endif|while|do|endwhile|skip]'
 
 def scanner(input_file, output_file):
     identifier = "([a-z]|[A-Z])([a-z]|[A-Z]|[0-9])*"
@@ -122,7 +132,7 @@ def scanner(input_file, output_file):
             for line in reader:
                 #Prints line out
                 printline = "Line: " + line
-                print(printline) 
+                print(printline)
                 writefile.write(printline)
                 writefile.write('\n')
                 tokenlist = re.findall(PAT,line)
@@ -141,7 +151,7 @@ def scanner(input_file, output_file):
                         writefile.write(keywordoutput)
 
                     elif symbolmatch:
-                        symboloutput = symbolmatch.group() + " SYMBOL\n" #.group() converts the searched object into string
+                        symboloutput = symbolmatch.group() + " SYMBOL\n"
                         print(symboloutput)
                         writefile.write(symboloutput)
 
@@ -158,6 +168,7 @@ def scanner(input_file, output_file):
                 asttree(tokenlist)
 
 def main():
+    """Main Function"""
     #FOR TESTING
     # scanner("inputs.txt")
     input_file = input("Please enter name of input file for scanning:  ")
